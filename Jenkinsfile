@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     environment {
-        DOCKER_IMAGE = "{Your_DockerHub_Username}/{Your_Repository_Name}"
+        DOCKER_IMAGE = "yogirajdj/my-web-app"
         DOCKER_TAG = "latest"
     }
  
