@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: '{Your_github_Repository_link}'
+                git branch: 'master', url: 'https://github.com/yogirajdj/my-web-app.git', credentialsID: 'github-credentials'
             }
         }
  
